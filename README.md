@@ -16,7 +16,7 @@ public OnPlayerInteract(playerid, interactid)
 new test_interact;
 public OnGameModeInit()
 {
-    test_interact = CreateInteraction(1210, "Interaction\nPress ALT", KEY_WALK, 1154.1750, -1769.1215, 16.5938);
+    	test_interact = CreateInteraction(1210, "Interaction\nPress ALT", KEY_WALK, 1154.1750, -1769.1215, 16.5938);
 	return 1;
 }
 public OnPlayerInteract(playerid, interactid)
