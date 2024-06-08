@@ -1,7 +1,7 @@
-#SAMP-Interactions
+# SAMP-Interactions
 Interaction Positions
 
-##Include:
+## Include:
 ```pawn
 #include <interact.inc>
 ```
