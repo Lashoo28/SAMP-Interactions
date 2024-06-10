@@ -40,6 +40,7 @@ public OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
             if(
                 IsPlayerInRangeOfPoint(playerid, 2.0, InteractData[i][IP_POS][0], InteractData[i][IP_POS][1], InteractData[i][IP_POS][2])) {
                 CallRemoteFunction("OnPlayerInteract", "dd", playerid, i);
+		return true;
             }
         }
     }
